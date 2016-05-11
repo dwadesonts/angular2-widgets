@@ -1,1 +1,1 @@
-exports.TsListDirective = require('./lib/TsListDirective').TsListDirective;
+exports.TsListDirective = require('./lib/ts-list.directive').TsListDirective;

@@ -10,14 +10,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('angular2/core');
 var browser_1 = require('angular2/platform/browser');
+var widgets_1 = require('angular2-widgets/widgets');
 var App = (function () {
     function App() {
     }
     App = __decorate([
         core_1.Component({
             selector: 'app',
-            directives: [],
-            template: "<div>hi</div>\n               "
+            directives: [widgets_1.TsListDirective],
+            template: "<div>\n                 hi\n                 <ul [tsList]></ul>\n               </div>\n               "
         }), 
         __metadata('design:paramtypes', [])
     ], App);

@@ -9,7 +9,7 @@ import {TsListDirective} from 'angular2-widgets/widgets';
     directives: [TsListDirective],
     template: `<div>
                  hi
-                 <ul [tsList]></ul>
+                 <ul tsList></ul>
                </div>
                `
 })

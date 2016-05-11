@@ -1,6 +1,6 @@
 import {Component} from 'angular2/core';
 import {bootstrap} from 'angular2/platform/browser';
-// import the component being exampled
+import {TsListDirective} 'angular2-widgets/widgets/ts-list.directive';
 
 // add directives for the components being exampled
 // add html in the template for components being exampled

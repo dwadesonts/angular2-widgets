@@ -1,6 +1,6 @@
 {
   "name": "angular2-widgets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A library of UI widgets for use with Angular2",
   "main": "index.js",
   "scripts": {
